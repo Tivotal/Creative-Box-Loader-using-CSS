@@ -37,7 +37,9 @@ body {
   height: 48px;
   background: #4070f4;
   transform-style: preserve-3d;
-  transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg);
+  transform: rotateY(-47deg) 
+             rotateX(-15deg) 
+             rotateZ(15deg);
   animation: 3s linear forwards infinite;
 }
 
@@ -48,12 +50,18 @@ body {
   width: inherit;
   height: inherit;
   background: inherit;
-  transform: rotateX(90deg) rotateY(0deg) translate(0, -24px) translateZ(24px);
+  transform: rotateX(90deg) 
+             rotateY(0deg) 
+             translate(0, -24px) 
+             translateZ(24px);
   filter: brightness(1.2);
 }
 
 .loader .box span::after {
-  transform: rotateX(0deg) rotateY(90deg) translate(24px, 0px) translateZ(24px);
+  transform: rotateX(0deg) 
+             rotateY(90deg) 
+             translate(24px, 0px) 
+             translateZ(24px);
   filter: brightness(1.4);
 }
 
@@ -378,7 +386,8 @@ body {
   background: #e8e8e8;
   right: 32%;
   bottom: -11px;
-  transform: translateZ(200px) rotate(20.5deg);
+  transform: translateZ(200px) 
+             rotate(20.5deg);
   animation: mask 3s linear forwards infinite;
 }
 
@@ -396,7 +405,8 @@ body {
 .loader::after {
   right: auto;
   left: 32%;
-  transform: translateZ(200px) rotate(-20.5deg);
+  transform: translateZ(200px) 
+             rotate(-20.5deg);
 }
 
 .loader .ground {
@@ -404,7 +414,9 @@ body {
   left: -50px;
   bottom: -120px;
   transform-style: preserve-3d;
-  transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(1);
+  transform: rotateY(-47deg) 
+             rotateX(-15deg) 
+             rotateZ(15deg) scale(1);
 }
 
 .loader .ground span {
@@ -418,8 +430,11 @@ body {
     #507cf5 100%
   );
   transform-style: preserve-3d;
-  transform: rotateX(90deg) rotateY(0deg) translate(-48px, -120px)
-    translateZ(100px) scale(0);
+  transform: rotateX(90deg) 
+             rotateY(0deg) 
+             translate(-48px, -120px)
+             translateZ(100px) 
+             scale(0);
   animation: groundAnim 3s linear forwards infinite;
 }
 
@@ -447,8 +462,10 @@ body {
   width: 156px;
   height: 300px;
   background: linear-gradient(#4070f4, transparent);
-  transform: rotateX(90deg) rotateY(0deg) translate(44px, 162px)
-    translateZ(-50px);
+  transform: rotateX(90deg) 
+             rotateY(0deg) 
+             translate(44px, 162px)
+             translateZ(-50px);
   opacity: 0;
   animation: shine 3s linear forwards infinite;
 }
@@ -468,5 +485,8 @@ body {
 }
 
 .loader .ground span::after {
-  transform: rotateX(90deg) rotateY(90deg) translate(0, 177px) translateZ(150px);
+  transform: rotateX(90deg) 
+             rotateY(90deg) 
+             translate(0, 177px) 
+             translateZ(150px);
 }
